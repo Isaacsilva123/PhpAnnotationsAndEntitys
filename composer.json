@@ -1,17 +1,20 @@
 {
-    "name": "isaac/php-annotations-and-entitys",
-    "autoload": {
-        "psr-4": {
-            "entitys\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Isaacsilva123",
-            "email": "isaacsilvai859@gmail.com"
-        }
-    ],
-    "require": {
-        "vlucas/phpdotenv": "^5.6"
+  "name": "isaacsilva123/php-annotations-and-entitys",
+  "description": "Biblioteca de Annotations e Entities em PHP.",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Entitys\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "Isaacsilva123",
+      "email": "isaacsilvai859@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "vlucas/phpdotenv": "^5.6"
+  }
 }
