@@ -14,6 +14,8 @@ abstract class EntityOnBD
 
     public function __construct()
     {
+        $dotenv = \Dotenv\Dotenv::createImmutable(__DIR__);
+        $dotenv->load();
         $this->entityClass = new \ReflectionClass(static::class);
         $this->conn = ConnectionOnBD::getConnection();
         $this->setName();
