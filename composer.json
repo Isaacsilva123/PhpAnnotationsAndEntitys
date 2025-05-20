@@ -1,0 +1,17 @@
+{
+    "name": "isaac/php-annotations-and-entitys",
+    "autoload": {
+        "psr-4": {
+            "entitys\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Isaacsilva123",
+            "email": "isaacsilvai859@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
